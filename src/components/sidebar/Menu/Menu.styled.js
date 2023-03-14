@@ -56,5 +56,10 @@ export const CloseIcon = styled(FaRegWindowClose)`
   &:hover {
     color: black;
   }
+  
+  @media(max-width: 368px){
+    top:30%
+  }
+  
 `
 
