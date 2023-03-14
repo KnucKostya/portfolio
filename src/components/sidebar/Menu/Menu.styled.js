@@ -28,17 +28,18 @@ export const StyledMenu = styled.nav`
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: bold;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
     color: ${({theme}) => theme.primaryDark};
     text-decoration: none;
     transition: color 0.3s linear;
   }
 
-  //@media only screen and(max-width: 368px){
-  //  .a{
-  //    font-size:1.5rem
-  //  }
-  //}
+  @media (max-width: 368px){
+    a{
+      font-size:1.5rem;
+      letter-spacing: 0.2rem;
+    }
+  }
   
   `;
 
