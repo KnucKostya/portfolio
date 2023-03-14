@@ -32,12 +32,13 @@ export const StyledMenu = styled.nav`
     color: ${({theme}) => theme.primaryDark};
     text-decoration: none;
     transition: color 0.3s linear;
+    white-space: nowrap;
   }
 
   @media (max-width: 375px){
     a{
-      font-size:1.5rem;
-      letter-spacing: 0.2rem;
+      //font-size:1.5rem;
+      //letter-spacing: 0.2rem;
     }
   }
   
