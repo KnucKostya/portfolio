@@ -34,7 +34,7 @@ export const StyledMenu = styled.nav`
     transition: color 0.3s linear;
   }
 
-  @media (max-width: 368px){
+  @media (max-width: 375px){
     a{
       font-size:1.5rem;
       letter-spacing: 0.2rem;
@@ -57,8 +57,8 @@ export const CloseIcon = styled(FaRegWindowClose)`
     color: black;
   }
   
-  @media(max-width: 368px){
-    top:30%
+  @media(max-width: 375px){
+    top:28%
   }
   
 `
