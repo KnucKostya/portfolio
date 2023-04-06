@@ -1,12 +1,11 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .currentProject {
   padding: 2% 20px;
   .buttonImageContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+      @include flexColumn(flex,column,center);
+      position: relative;
       .btnUpperText {
           background-color: transparent;
           border: none;

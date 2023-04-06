@@ -1,15 +1,12 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .contactsBlock{
     background-color: $bgColor2;
-    display: flex;
-    flex-direction: column;
+    @include flexColumn(flex,column,center);
     justify-content: space-between;
-    align-items: center;
     .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flexColumn(flex,column,center);
         .form{
             border: 1px solid;
             display: flex;

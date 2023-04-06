@@ -1,13 +1,12 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .projectBlock {
   background-color: $bgColor;
   justify-content: center;
   .container {
     min-height: 40vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexColumn(flex,column,center);
     justify-content: space-evenly;
     padding: 4%;
   }

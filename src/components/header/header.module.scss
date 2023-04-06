@@ -1,11 +1,10 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .header {
     height:60px;
     background-color: $bgColor;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    @include flexRow(flex,center,flex-start);
     border: 2px solid $textColor;
     position: fixed;
     left: 0;

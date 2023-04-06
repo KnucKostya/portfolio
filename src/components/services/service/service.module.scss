@@ -1,10 +1,9 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .skill {
-  display: flex;
+  @include flexColumn(flex,column,center);
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
   max-width: 250px;
   padding: 8px;
   .icon {

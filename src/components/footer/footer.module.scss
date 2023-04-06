@@ -1,16 +1,13 @@
 @import "/src/common/styles/saas/variables";
+@import "/src/common/styles/saas/mixins";
 
 .footerBlock {
     background-color: $bgColor;
     min-height: 70vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    @include flexColumn(flex,column,center);
     justify-content: center;
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        @include flexRow(flex,center,space-evenly);
         .titleFooter {
             text-align: center;
             font-family: 'Rubik', sans-serif;
@@ -20,9 +17,7 @@
         .iconsBlock {
             width: 30%;
             height: 40%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include flexRow(flex,center,space-around);
             .linkIcon {
                 color: transparent;
             }
