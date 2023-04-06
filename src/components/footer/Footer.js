@@ -1,12 +1,10 @@
 import React from 'react';
-import s from './footer.module.css'
-import generalContainer from "../../common/styles/container.module.css";
+import s from './footer.module.scss'
+import generalContainer from "../../common/styles/container.module.scss";
 import InstImg from '../../common/icons/instagram.png'
 import TelegramImg from '../../common/icons/telegram.png'
 import LinkImg from '../../common/icons/linkedin.PNG'
-import GitHub from '../../common/icons/gitHub.png'
-import {Line} from '../../common/Line/Line'
-
+import gitFooter from '../../common/icons/gitFooter.png'
 
 const Footer = () => {
 
@@ -20,10 +18,9 @@ const Footer = () => {
                         src={InstImg} className={s.icon} alt=""/></a>
                     <a href={`https://www.linkedin.com/in/%D0%BA%D0%BE%D1%81%D1%82%D1%8F-%D0%BA%D0%BE%D1%85%D0%B0%D0%BD%D0%BE%D0%B2-776440245`}
                        className={s.linkIcon}><img src={LinkImg} className={s.icon} alt=""/></a>
-                    <a href="https://github.com/knuckless0231" className={s.linkIcon}><img src={GitHub} className={s.icon} alt=""/></a>
+                    <a href="https://github.com/knuckless0231" className={s.linkIcon}><img src={gitFooter} className={s.icon} alt=""/></a>
                 </div>
             </div>
-            <div>(c) All rights are protected</div>
         </div>
     );
 };

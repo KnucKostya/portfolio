@@ -1,0 +1,22 @@
+@import "/src/common/styles/saas/variables";
+
+.title {
+  margin-bottom: 15%;
+  padding: 0;
+  color: $textColor;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.5px;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: $after;
+    bottom: -20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }}

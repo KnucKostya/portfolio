@@ -1,0 +1,26 @@
+@import "/src/common/styles/saas/variables";
+
+.projectBlock {
+  background-color: $bgColor;
+  justify-content: center;
+  .container {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4%;
+  }
+    .title {
+        padding: 2% 0;
+}
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+

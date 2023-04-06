@@ -6,10 +6,10 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: ${({theme}) => theme.primaryLight};
+  background: ${({theme}) => theme.primaryDarkBlue};
   transform: ${({open}) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: 100vh;
-  width:100%;
+  width: 100%;
   text-align: left;
   padding: 2rem;
   position: absolute;
@@ -17,50 +17,38 @@ export const StyledMenu = styled.nav`
   left: 0;
   transition: transform 0.3s ease-in-out;
 
-  // @media (max-width: ${({theme}) => theme.mobile}) {
-  //   width: 100%;
-  // }
-
-
-  
   a {
     font-size: 2rem;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: ${({theme}) => theme.primaryDark};
+    color: #a4a4a4;
     text-decoration: none;
     transition: color 0.3s linear;
     white-space: nowrap;
-  }
-
-  @media (max-width: 375px){
-    a{
-      //font-size:1.5rem;
-      //letter-spacing: 0.2rem;
+    &:hover{
+      color: #727171;
     }
-  }
-  
-  `;
+  }`;
 
 
 
 export const CloseIcon = styled(FaRegWindowClose)`
-  color: grey;
-  position:fixed;
-  top:25%;
+  color: #a4a4a4;
+  position: fixed;
+  top: 25%;
   font-size: 50px;
   cursor: pointer;
   transition: all 0.3s;
 
   &:hover {
-    color: black;
+    color: #727171;
   }
-  
-  @media(max-width: 375px){
-    top:28%
+
+  @media (max-width: 375px) {
+    top: 28%
   }
-  
+
 `
 

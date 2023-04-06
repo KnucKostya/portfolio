@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes} from "react-router-dom";
-import Skills from "./components/skills/Skills";
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

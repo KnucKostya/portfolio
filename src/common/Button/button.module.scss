@@ -1,8 +1,9 @@
+@import "/src/common/styles/saas/variables";
 .btn{
     background-color: transparent;
     cursor: pointer;
-    border-color: white;
-    color: white;
+    border-color: $textColor;
+    color: $textColor;
     border-radius: 7px;
     font-family:'Rubik', sans-serif;
 }

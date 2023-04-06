@@ -2,24 +2,20 @@ import React from 'react';
 import './App.css';
 import Header from "./components/header/Header";
 import Main from "./components/main/main";
-import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
 import Projects from "./components/myProjects/Projects";
 import DistanceWorkBlock from "./components/distanceWorkBlock/DistanceWorkBlock";
-import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
-
-
-import {Route, RouterProvider} from "react-router-dom";
 
 export const App = () => {
     return (
         <div className="App">
             <Header/>
             <Main/>
-            <Skills/>
+            <Services/>
             <Projects/>
             <DistanceWorkBlock/>
-            <Contacts/>
+            {/*<Contacts/>*/}
             <Footer/>
         </div>
     );

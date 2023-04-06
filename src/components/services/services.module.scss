@@ -1,0 +1,33 @@
+@import "/src/common/styles/saas/variables";
+
+.skillsBlock{
+    background-color: $bgColor2;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    .skillsContainer{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-direction: column;
+        height: 100%;
+        max-width: 60%;
+        padding:0 0 8% 0;
+        .title{
+            padding: 4% 0;
+        }
+        .skills{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            justify-items: center;
+            justify-content: space-between;
+            color:$textColor;
+        }
+    }
+}
+
+
+

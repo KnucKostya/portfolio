@@ -1,0 +1,93 @@
+@import "/src/common/styles/saas/variables";
+
+.currentProject {
+  padding: 2% 20px;
+  .buttonImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+      .btnUpperText {
+          background-color: transparent;
+          border: none;
+          color: $after;
+          position: absolute;
+          top: 10%;
+          cursor: pointer;
+          font-size: 10px;
+          &:before {
+              content: '';
+              position: absolute;
+              filter: blur(10px);
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              mix-blend-mode: screen;
+              background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #BFE2FF 1em, #337AB7 50%), repeating-linear-gradient(45deg, #337AB7, #337AB7 1em, #FFF 1em, #BFE2FF 50%);
+              background-size: 3em 3em, 2em 2em;
+              animation-name: ani;
+              animation-duration: 10s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+          }
+      }
+      .img {
+          max-width: 200px;
+          max-height: 200px;
+      }
+      .btnBottomText {
+          background-color: transparent;
+          border: none;
+          color: $after;
+          position: absolute;
+          bottom: 10%;
+          cursor: pointer;
+          font-size: 10px;
+          text-decoration: none;
+          &:before {
+              content: '';
+              position: absolute;
+              filter: blur(10px);
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              mix-blend-mode: screen;
+              background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #BFE2FF 1em, #6aaee8 50%), repeating-linear-gradient(45deg, #337AB7, #337AB7 1em, #FFF 1em, #BFE2FF 50%);
+              background-size: 3em 3em, 2em 2em;
+              animation-name: ani;
+              animation-duration: 10s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+              animation-direction: alternate;
+          }
+      }
+  }
+    .descriptionContainer {
+        align-items: flex-start;
+        background-color: white;
+        padding: 10px;
+        .description {
+            background-color: #c2c2c2;
+            width: 200px;
+            padding: 1px;
+        }
+        .title {
+            background-color: #c2c2c2;
+            width: 100%;
+            padding: 1px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

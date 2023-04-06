@@ -1,10 +1,12 @@
+@import "/src/common/styles/saas/variables";
+
 .header {
     height:60px;
-    background-color: black;
+    background-color: $bgColor;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid $textColor;
     position: fixed;
     left: 0;
     right: 0;

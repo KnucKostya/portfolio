@@ -1,5 +1,8 @@
 import React from 'react';
-import s from "./Line.module.css";
+import s from "./Line.module.scss";
 
-export const Line = () => {return <div className={s.line}></div>};
+export const Line = () => {
+    return  <div className={s.line}></div>
+
+};
 
