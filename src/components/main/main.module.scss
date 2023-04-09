@@ -9,11 +9,12 @@
         background-color: $bgColor2;
         font-family: 'Rubik', sans-serif;
         width: 40%;
+
         @media screen and (max-width: 604px) {
-            .textBlock {
+            & {
                 margin-top: 20%;
                 margin-bottom: 5%;
-                width: 80%;
+                width: 100%;
             }
         }
         .nameTitle{
@@ -24,6 +25,7 @@
             color: $textColor;
             font-weight: 400;
             letter-spacing: 0.5px;
+            width: 100%;
         }
     }
     .ava {
