@@ -17,15 +17,18 @@ import ReactImg from '../../common/icons/react.png'
 import RTK from '../../common/icons/rtk.jpg'
 import TypeScriptImg from '../../common/icons/ts.png'
 import Saas from '../../common/icons/saas.avif'
+import Fade from 'react-reveal/Fade';
 
 
 const Services = () => {
     return (
         <div id={"services"} className={s.skillsBlock} >
             <div className={`${generalContainer.container} ${s.skillsContainer}`}>
-                <div className={s.title}>
-                    <Title title={'Services'}/>
-                </div>
+                    <Fade top>
+                        <div className={s.title}>
+                        <Title title={'Services'}/>
+                        </div>
+                    </Fade>
                 <div className={s.skills}>
                     <Service title={'HTML'} skill={'Have confident skills'} img={htmlImg}/>
                     <Service title={'CSS'} skill={'Have confident skills'} img={cssImg}/>

@@ -6,14 +6,17 @@ import {Title} from "../../common/title/Title";
 import todoImage from '../../common/icons/todo-list.jpg'
 import socialNetworkImage from '../../common/icons/social-network.jpg'
 import counter from '../../common/icons/counter.JPG'
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
     return (
         <div id={'projects'} className={s.projectBlock}>
             <div className={`${generalContainer} ${s.container}`}>
-                <div className={s.title}>
-                    <Title title={'My Projects'}/>
-                </div>
+                <Fade top>
+                    <div className={s.title}>
+                        <Title title={'My Projects'}/>
+                    </div>                </Fade>
+
                 <div className={s.projects}>
                     <Project
                         linkcode={'https://github.com/knuckless0231/todoList.git'}
