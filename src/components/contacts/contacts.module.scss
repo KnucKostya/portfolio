@@ -6,15 +6,35 @@
     @include flexColumn(flex,column,center);
     justify-content: space-between;
     .container{
-        @include flexColumn(flex,column,center);
+        //@include flexColumn(flex,column,center);
         .form{
             border: 1px solid;
             display: flex;
             flex-direction: column;
-            .textForm{
-                min-height: 20vh;
+            width:  clamp(15rem, 13rem + 10vw, 25rem);
+                    //clamp(15.625rem, 10.5769rem + 22.4359vw, 37.5rem);
+            .emailInput{
+                min-height: 30px;
+                background-color: $bgColor;
+                border-radius: 3px;
+                color:$textColor;
+                border: 0.1px solid $textColor;
+                &::placeholder{
+                    color:$textColor;
+                }
             }
-            .inputStyle{
+            .textInput{
+                margin-top: 3px;
+                min-height: 60px;
+                background-color: $bgColor;
+                color: $textColor;
+                border-radius: 3px;
+                border: 0.1px solid $textColor;
+                &::placeholder{
+                    color:$textColor;
+                }
+            }
+            .inputSubmitStyle{
                 margin-top: 5%;
                 background-color: transparent;
                 cursor: pointer;

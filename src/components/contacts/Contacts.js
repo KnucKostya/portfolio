@@ -11,15 +11,16 @@ const Contacts = () => {
     return (
         <div className={s.contactsBlock} id={'hire'}>
             <div className={`${generalContainer.container} ${s.container}`}>
-                    <form onSubmit={handleSubmit(onSubmit)} className={s.form}>
-                        <input placeholder={'Enter your name / company'} {...register("name", {required: true})} />
-                        <input placeholder={'Enter email'} {...register("email", {required: true})} />
-                        <input type="text" placeholder={"Say something"}
-                               className={s.textForm} {...register("text", {required: true})}/>
-                        <input type="submit" className={s.inputStyle}/>
-                    </form>
+                <form onSubmit={handleSubmit(onSubmit)} className={s.form}>
+                    <input placeholder={'Enter email...'} {...register("email", {required: true})}
+                           className={s.emailInput} />
+                    <input type="text" placeholder={"Type something..."}
+                           className={s.textInput} {...register("text", {required: true})}/>
+                    <input type="submit" className={s.inputSubmitStyle}/>
+                </form>
             </div>
-</div>
- )};
+        </div>
+    )
+};
 
 export default Contacts;

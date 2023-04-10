@@ -20,23 +20,23 @@ const Projects = () => {
                 <div className={s.projects}>
                     <Project
                         linkcode={'https://github.com/knuckless0231/todoList.git'}
-                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
-                        title={'Todo List'} description={'Miami'}
+                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Todo List'} description={'Stack: TS, RTK, Thunk, Unit-Test, API'}
                         img={todoImage}/>
                     <Project
                         linkcode={'https://github.com/knuckless0231/way-of-samurai-ts-upd.git'}
-                        link={'https://knuckless0231.github.io/login'}
-                        title={'Social Network'} description={'Miami'}
+                        deploy={'https://knuckless0231.github.io/login'}
+                        title={'Social Network'} description={`Stack: TS, Redux, Thunk, Unit-Test, API HOC's`}
                         img={socialNetworkImage}/>
                     <Project
-                        linkcode={'https://github.com/knuckless0231/todoList.git'}
-                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
-                        title={'Rick and Morty'} description={'Miami'}
+                        linkcode={'https://github.com/KnucKostya/rick_morty_api_pet_project.git'}
+                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Rick and Morty'} description={'Stack: TS, Redux, Thunk, Unit-Test, API'}
                         img={'https://ae01.alicdn.com/kf/HTB1O8U9ANSYBuNjSspjq6x73VXaG/DC-418-14-rick-morty.jpg'}/>
                     <Project
                         linkcode={'https://github.com/knuckless0231/Counter.git'}
-                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
-                        title={'Counter'} description={'Stack:Redux,Thunk,Unit-Test,Local Storage'}
+                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Counter'} description={'Stack: TS, Redux, Thunk, Unit-Test'}
                         img={counter}/>
                 </div>
             </div>

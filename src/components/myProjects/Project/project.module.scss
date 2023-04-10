@@ -8,6 +8,8 @@
       position: relative;
       .btnUpperText {
           background-color: transparent;
+          font-family: "Rubik", sans-serif;
+          letter-spacing: 0.5px;
           border: none;
           color: $after;
           position: absolute;
@@ -38,6 +40,8 @@
       }
       .btnBottomText {
           background-color: transparent;
+          font-family: "Rubik", sans-serif;
+          letter-spacing: 0.5px;
           border: none;
           color: $after;
           position: absolute;
@@ -66,17 +70,26 @@
   }
     .descriptionContainer {
         align-items: flex-start;
-        background-color: white;
-        padding: 10px;
-        .description {
-            background-color: #c2c2c2;
-            width: 200px;
-            padding: 1px;
-        }
+        background-color: $bgColor2;
+        border-top: 1px solid $textColor;
+        border-bottom:1px solid $textColor ;
         .title {
-            background-color: #c2c2c2;
+            font-family: "Rubik", sans-serif;
+            letter-spacing: 0.5px;
+            background-color: $bgColor2;
             width: 100%;
             padding: 1px;
+            color:$textColor;
+            font-weight: bolder;
+        }
+        .description {
+            font-family: "Rubik", sans-serif;
+            letter-spacing: 0.5px;
+            font-weight: normal;
+            background-color: $bgColor2;
+            width: 200px;
+            padding: 1px;
+            color:$textColor;
         }
     }
 }
