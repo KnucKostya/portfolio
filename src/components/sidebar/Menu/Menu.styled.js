@@ -29,6 +29,7 @@ export const StyledMenu = styled.nav`
     white-space: nowrap;
     &:hover{
       color: #727171;
+      cursor:pointer;
     }
   }`;
 

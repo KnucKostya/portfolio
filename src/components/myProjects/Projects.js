@@ -19,23 +19,23 @@ const Projects = () => {
 
                 <div className={s.projects}>
                     <Project
-                        linkcode={'https://github.com/knuckless0231/todoList.git'}
-                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        linkcode={''}
+                        deploy={''}
                         title={'Todo List'} description={'Stack: TS, RTK, Thunk, Unit-Test, API'}
                         img={todoImage}/>
                     <Project
-                        linkcode={'https://github.com/knuckless0231/way-of-samurai-ts-upd.git'}
-                        deploy={'https://knuckless0231.github.io/login'}
+                        linkcode={'https://github.com/KnucKostya/way-of-samurai-ts-upd.git'}
+                        deploy={'https://knuckostya.github.io/way-of-samurai-ts-upd/'}
                         title={'Social Network'} description={`Stack: TS, Redux, Thunk, Unit-Test, API HOC's`}
                         img={socialNetworkImage}/>
                     <Project
                         linkcode={'https://github.com/KnucKostya/rick_morty_api_pet_project.git'}
-                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        deploy={'https://knuckostya.github.io/rick_morty_api_pet_project/'}
                         title={'Rick and Morty'} description={'Stack: TS, Redux, Thunk, Unit-Test, API'}
                         img={'https://ae01.alicdn.com/kf/HTB1O8U9ANSYBuNjSspjq6x73VXaG/DC-418-14-rick-morty.jpg'}/>
                     <Project
-                        linkcode={'https://github.com/knuckless0231/Counter.git'}
-                        deploy={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        linkcode={'https://github.com/KnucKostya/Counter.git'}
+                        deploy={'https://knuckostya.github.io/Counter/'}
                         title={'Counter'} description={'Stack: TS, Redux, Thunk, Unit-Test'}
                         img={counter}/>
                 </div>
