@@ -19,8 +19,8 @@ const Projects = () => {
 
                 <div className={s.projects}>
                     <Project
-                        linkcode={''}
-                        deploy={''}
+                        linkcode={'https://github.com/KnucKostya/redux-toolkit-todo.git'}
+                        deploy={'https://knuckostya.github.io/redux-toolkit-todo/'}
                         title={'Todo List'} description={'Stack: TS, RTK, Thunk, Unit-Test, API'}
                         img={todoImage}/>
                     <Project
