@@ -4,16 +4,22 @@ import generalContainer from "../../common/styles/container.module.scss";
 import {useForm} from "react-hook-form";
 import axios from 'axios'
 
-const instanse = axios.create({baseURL:'http://localhost:3010', withCredentials: false})
+const instanse = axios.create({baseURL:'https://node-portfolio-three.vercel.app/', withCredentials: false})
 
 const Contacts = () => {
     const {register, handleSubmit, watch, formState: {errors}} = useForm();
     const onSubmit = (data) => {
         
-        instanse.post('/sendMessage', data)
-        .then ((res)=>{
-            console.log (res.data.data)})
+        instanse.post('sendMessage', data)
+        .then (()=>{
+                alert('Thank you for your interest. I will contact you shortly.') 
+        })
+        .catch((e)=>{
+            alert(e.message)
+        })
+
     }
+
 
     return (
         <div className={s.contactsBlock} id={'hire'}>
