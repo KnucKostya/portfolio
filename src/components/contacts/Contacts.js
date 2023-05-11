@@ -19,7 +19,7 @@ const Contacts = () => {
         })
 
     }
-
+//test commit
 
     return (
         <div className={s.contactsBlock} id={'hire'}>
