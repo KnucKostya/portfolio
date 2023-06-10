@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className={s.iconsBlock}>
                         <a href="https://t.me/knucknuck" className={s.linkIcon}>
                             <img src={TelegramImg} className={s.icon} alt=""/></a>
-                        <a href="https://instagram.com/kknuckless__?igshid=NzAzN2Q1NTE=" className={s.linkIcon}>
+                        <a href="https://instagram.com/knuckless_dev?igshid=OGQ5ZDc2ODk2ZA==" className={s.linkIcon}>
                             <img src={InstImg} className={s.icon} alt=""/></a>
                         <a href={`https://www.linkedin.com/in/%D0%BA%D0%BE%D1%81%D1%82%D1%8F-%D0%BA%D0%BE%D1%85%D0%B0%D0%BD%D0%BE%D0%B2-776440245`}
                            className={s.linkIcon}>
