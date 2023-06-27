@@ -24,7 +24,7 @@ const Footer = () => {
                         <a href={`https://www.linkedin.com/in/%D0%BA%D0%BE%D1%81%D1%82%D1%8F-%D0%BA%D0%BE%D1%85%D0%B0%D0%BD%D0%BE%D0%B2-776440245`}
                            className={s.linkIcon}>
                             <img src={LinkImg} className={s.icon} alt=""/></a>
-                        <a href="https://github.com/knuckless0231" className={s.linkIcon}>
+                        <a href="https://github.com/KnucKostya" className={s.linkIcon}>
                             <img src={gitFooter} className={s.icon} alt=""/></a>
                     </div>
                 </Fade>
