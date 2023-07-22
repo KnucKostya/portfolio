@@ -32,22 +32,22 @@ const Services = () => {
                         </div>
                     </Fade>
                 <div className={s.skills}>
-                    <Service title={'HTML'} skill={'Have confident skills'} img={htmlImg}/>
-                    <Service title={'CSS'} skill={'Have confident skills'} img={cssImg}/>
-                    <Service title={'JS'} skill={'Have confident skills'} img={jsImg}/>
-                    <Service title={'Storybook'} skill={'Have confident skills'} img={StorybookImg}/>
-                    <Service title={'TDD'} skill={'Have confident skills'} img={TddImg}/>
-                    <Service title={'Unit Test'} skill={'Have confident skills'} img={UnitImg}/>
-                    <Service title={'React Hook Form'} skill={'Have confident skills'} img={reactHookForm}/>
-                    <Service title={'TypeScript'} skill={'Have confident skills'} img={TypeScriptImg}/>
-                    <Service title={'React'} skill={'Have confident skills'} img={ReactImg}/>
-                    <Service title={'REST API'} skill={'Have confident skills'} img={APIImg}/>
-                    <Service title={'Material-UI'} skill={'Have confident skills'} img={MaterialImg}/>
-                    <Service title={'Redux'} skill={'Have confident skills'} img={ReduxImg}/>
-                    <Service title={'Redux Tool Kit'} skill={'Have confident skills'} img={RTK}/>
-                    <Service title={'Redux Tool Kit Query'} skill={'Have confident skills'} img={RTKQuery}/>
-                    <Service title={'GitHub'} skill={'Have confident skills'} img={gitHubImg}/>
-                    <Service title={'Saas'} skill={'Have confident skills'} img={Saas}/>
+                    <Service title={'HTML'}  img={htmlImg}/>
+                    <Service title={'CSS'}  img={cssImg}/>
+                    <Service title={'Saas'}  img={Saas}/>
+                    <Service title={'JS'}  img={jsImg}/>
+                    <Service title={'TypeScript'}  img={TypeScriptImg}/>
+                    <Service title={'React'}  img={ReactImg}/>
+                    <Service title={'REST API'}  img={APIImg}/>
+                    <Service title={'Redux'}  img={ReduxImg}/>
+                    <Service title={'Redux Tool Kit'}  img={RTK}/>
+                    <Service title={'Redux Tool Kit Query'}  img={RTKQuery}/>
+                    <Service title={'Material-UI'}  img={MaterialImg}/>
+                    <Service title={'GitHub'}  img={gitHubImg}/>
+                    <Service title={'Storybook'}  img={StorybookImg}/>
+                    <Service title={'TDD'}  img={TddImg}/>
+                    <Service title={'Unit Test'}  img={UnitImg}/>
+                    <Service title={'React Hook Form'}  img={reactHookForm}/>
                 </div>
             </div>
         </div>
