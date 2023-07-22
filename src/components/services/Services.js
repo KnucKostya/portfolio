@@ -15,8 +15,10 @@ import StorybookImg from '../../common/icons/story.png'
 import ReduxImg from '../../common/icons/redux.jpg'
 import ReactImg from '../../common/icons/react.png'
 import RTK from '../../common/icons/rtk.jpg'
+import RTKQuery from '../../common/icons/rtkQuery.png'
 import TypeScriptImg from '../../common/icons/ts.png'
 import Saas from '../../common/icons/saas.avif'
+import reactHookForm from '../../common/icons/hookForm.png'
 import Fade from 'react-reveal/Fade';
 
 
@@ -33,15 +35,17 @@ const Services = () => {
                     <Service title={'HTML'} skill={'Have confident skills'} img={htmlImg}/>
                     <Service title={'CSS'} skill={'Have confident skills'} img={cssImg}/>
                     <Service title={'JS'} skill={'Have confident skills'} img={jsImg}/>
-                    <Service title={'TypeScript'} skill={'Have confident skills'} img={TypeScriptImg}/>
-                    <Service title={'React'} skill={'Have confident skills'} img={ReactImg}/>
                     <Service title={'Storybook'} skill={'Have confident skills'} img={StorybookImg}/>
                     <Service title={'TDD'} skill={'Have confident skills'} img={TddImg}/>
                     <Service title={'Unit Test'} skill={'Have confident skills'} img={UnitImg}/>
+                    <Service title={'React Hook Form'} skill={'Have confident skills'} img={reactHookForm}/>
+                    <Service title={'TypeScript'} skill={'Have confident skills'} img={TypeScriptImg}/>
+                    <Service title={'React'} skill={'Have confident skills'} img={ReactImg}/>
                     <Service title={'REST API'} skill={'Have confident skills'} img={APIImg}/>
                     <Service title={'Material-UI'} skill={'Have confident skills'} img={MaterialImg}/>
                     <Service title={'Redux'} skill={'Have confident skills'} img={ReduxImg}/>
                     <Service title={'Redux Tool Kit'} skill={'Have confident skills'} img={RTK}/>
+                    <Service title={'Redux Tool Kit Query'} skill={'Have confident skills'} img={RTKQuery}/>
                     <Service title={'GitHub'} skill={'Have confident skills'} img={gitHubImg}/>
                     <Service title={'Saas'} skill={'Have confident skills'} img={Saas}/>
                 </div>

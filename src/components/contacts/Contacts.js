@@ -42,7 +42,7 @@ const Contacts = () => {
                         <p style={{color:"red"}}>{errors.email ? errors.email.message : ''}</p>
                     <input placeholder={'What`s your name?'} {...register("name", {required: true})}
                            className={s.emailInput}/>
-                    <input type="text" placeholder={"Type something..."}
+                    <input type="text" placeholder={"Type your inviting email..."}
                            className={s.textInput} {...register("text", {required: true})}/>
                     <input type="submit" className={s.inputSubmitStyle}/>
                 </form>
