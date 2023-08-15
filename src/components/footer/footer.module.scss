@@ -3,7 +3,7 @@
 
 .footerBlock {
     background-color: $bgColor;
-    min-height: 70vh;
+    min-height: 30vh;
     @include flexColumn(flex,column,center);
     justify-content: center;
     .container {

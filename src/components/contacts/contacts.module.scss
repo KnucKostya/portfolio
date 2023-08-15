@@ -14,6 +14,8 @@
             width:  clamp(15rem, 13rem + 10vw, 25rem);
                     //clamp(15.625rem, 10.5769rem + 22.4359vw, 37.5rem);
             .emailInput{
+                margin: 6px 0 6px 0;
+                padding: 10px;
                 min-height: 30px;
                 background-color: $bgColor;
                 border-radius: 3px;
@@ -24,7 +26,8 @@
                 }
             }
             .textInput{
-                margin-top: 3px;
+                margin: 6px 0 6px 0;
+                padding: 10px;
                 min-height: 60px;
                 background-color: $bgColor;
                 color: $textColor;
@@ -35,6 +38,7 @@
                 }
             }
             .inputSubmitStyle{
+                padding: 8px;
                 margin-top: 5%;
                 background-color: transparent;
                 cursor: pointer;

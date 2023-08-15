@@ -7,6 +7,7 @@ import todoImage from '../../common/icons/todo-list.jpg'
 import socialNetworkImage from '../../common/icons/social-network.jpg'
 import cardsImage from '../../common/icons/cards.png'
 import counter from '../../common/icons/counter.JPG'
+import rickMorty from '../../common/icons/rick-morty.jpg'
 import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
@@ -38,7 +39,7 @@ const Projects = () => {
                         linkcode={'https://github.com/KnucKostya/rick_morty_api_pet_project.git'}
                         deploy={'https://knuckostya.github.io/rick_morty_api_pet_project/'}
                         title={'Rick and Morty'} description={'Stack: React, TS, Redux, Thunk, Unit-Test, API, Local Storage'}
-                        img={'https://ae01.alicdn.com/kf/HTB1O8U9ANSYBuNjSspjq6x73VXaG/DC-418-14-rick-morty.jpg'}/>
+                        img={rickMorty}/>
                     <Project
                         linkcode={'https://github.com/KnucKostya/Counter.git'}
                         deploy={'https://knuckostya.github.io/Counter/'}
