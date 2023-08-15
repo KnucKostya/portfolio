@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.579714ea.css",
-    "main.js": "/portfolio/static/js/main.d04aaec1.js",
+    "main.css": "/portfolio/static/css/main.a9274fb1.css",
+    "main.js": "/portfolio/static/js/main.71939afd.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cards.png": "/portfolio/static/media/cards.e1058f8f09e125a30525.png",
     "static/media/photo.jpg": "/portfolio/static/media/photo.3fd3a8548b355a1603c5.jpg",
@@ -11,6 +11,7 @@
     "static/media/redux.jpg": "/portfolio/static/media/redux.e88b3091b670ed89f5c6.jpg",
     "static/media/ts.png": "/portfolio/static/media/ts.a4187849157c0c5b05cb.png",
     "static/media/unit.png": "/portfolio/static/media/unit.2b1c30659dc399820c50.png",
+    "static/media/rick-morty.jpg": "/portfolio/static/media/rick-morty.2abf728ca2be9778ef3b.jpg",
     "static/media/todo-list.jpg": "/portfolio/static/media/todo-list.ebbbb349dd50b708993c.jpg",
     "static/media/css.jpg": "/portfolio/static/media/css.78305cdd0ec7e27cc1c3.jpg",
     "static/media/telegram.png": "/portfolio/static/media/telegram.eb8641d7057a5f04a5bd.png",
@@ -20,12 +21,12 @@
     "static/media/counter.JPG": "/portfolio/static/media/counter.9e70806db20ad2ce4e0f.JPG",
     "static/media/linkedin.PNG": "/portfolio/static/media/linkedin.4f9ab49e96b64d05679b.PNG",
     "index.html": "/portfolio/index.html",
-    "main.579714ea.css.map": "/portfolio/static/css/main.579714ea.css.map",
-    "main.d04aaec1.js.map": "/portfolio/static/js/main.d04aaec1.js.map",
+    "main.a9274fb1.css.map": "/portfolio/static/css/main.a9274fb1.css.map",
+    "main.71939afd.js.map": "/portfolio/static/js/main.71939afd.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.579714ea.css",
-    "static/js/main.d04aaec1.js"
+    "static/css/main.a9274fb1.css",
+    "static/js/main.71939afd.js"
   ]
 }
